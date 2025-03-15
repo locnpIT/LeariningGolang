@@ -70,4 +70,6 @@ func main() {
 	log.Fatal(err)
 }
 
-// Test commit new
+func helloword(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("hello"))
+}
