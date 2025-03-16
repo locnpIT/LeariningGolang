@@ -73,3 +73,7 @@ func main() {
 func helloword(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("hello"))
 }
+
+func helloword1(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("hello"))
+}
